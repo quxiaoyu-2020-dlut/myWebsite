@@ -55,6 +55,7 @@ export default {
       // }
       // console.log(vertices)
       // 立方体开启阴影效果
+
       cube.castShadow = true
       // cube.castShadow = false
       // cube.receiveShadow = true
