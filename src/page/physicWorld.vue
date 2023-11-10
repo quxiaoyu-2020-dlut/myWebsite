@@ -222,6 +222,7 @@ export default {
 
       return threeObj
     },
+
     createRigidBody(Ammo, threeObj, shape, mass, pos, quat) {
       console.log(Ammo, pos, quat)
       let transform = new Ammo.btTransform()
