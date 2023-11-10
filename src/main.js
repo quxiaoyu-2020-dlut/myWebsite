@@ -12,6 +12,7 @@ Vue.use(VueRouter) // 使用VueRouter插件
 Vue.config.productionTip = false
 const router = new VueRouter({
   routes,
+  mode: "hash",
 })
 
 new Vue({
